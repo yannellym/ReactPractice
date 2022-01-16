@@ -1,0 +1,119 @@
+import 'animate.css';
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.666;
+    background-color: rgba(255, 255, 255, 0.87);
+    color: rgb(0, 0, 0);
+  }
+  
+  .img{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+
+  }
+  
+  h1 {
+    font-weight: 900;
+    font-size: 500%;
+    text-align: center;
+    margin-top: 4rem;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+  }
+h1 span{
+    background-color:rgb(0, 0, 0);
+    padding: 1%;
+    border-radius: 20px;
+}
+.description {
+    font-size: 23px;
+    text-align: center;
+}
+
+  h3{
+  font-weight: 500;
+  font-size: 250%;
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(0, 0, 2);
+  line-height: 1;
+
+  }
+  
+  .dictionary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3rem auto;
+    max-width: 90%;
+  }
+  
+  .dictionary > .term {
+    text-align: center;
+    width: 17rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgba(85, 82, 82, 0.164);
+    /* transition: all 100ms ease-in-out; */
+  }
+  
+  .dictionary > .term > dt {
+    margin-bottom: 1rem;
+  }
+  
+  dt {
+    color: #000000;
+    line-height: 1;
+  }
+  
+  dt span {
+    font-size: 170%;
+    font-weight: 900;
+  }
+  
+  
+  dd {
+    font-size: 95.5%;
+    margin-left: 0;
+    color: rgb(0, 0, 0);
+  }
+
+  dt:hover {
+      color: red;
+  }
+  
+  dd dt {
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+    font-size: inherit;
+  }
+  
+  dd dl {
+    font-size: 90%;
+    margin: 1rem auto 0 auto;
+    letter-spacing: 0.33px;
+    max-width: 15rem;
+  }
+  
+  dd dl .term {
+    margin-bottom: 1rem;
+  }
+  
+  .howTo{
+      width: 50%;
+      background-color: rgba(85, 82, 82, 0.164);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-self: center;
+    padding: 3%;
+    margin-left: 20%;
+    margin-bottom: 4%;
+    margin-top: 3%;
+    font-size: 20px;
+  }
